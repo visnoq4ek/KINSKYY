@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KINSKY</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        
+        .aling-item{
+          margin-left: 0vw;
+        }
+        .ver{
+          font-size: 1vw;
+          font-weight: 400;
+          
+        }
+        .menu{
+        
+        font-size: 0.94vw;
+        margin-top: 1vw;
+        margin-left: 1vw;
+        margin-right: 7vw;
+        padding-bottom: 1vw;
+        margin-bottom: 10vw;
+
+        ul{
+            margin-left: 3vw;
+        }
+
+        .login{
+            margin-left: 3vw;
+            font-size: 1.30vw;
+            font-weight: 500;
+            color: #CE3B3B;
+        }
+        
+        }
+        .menu-contain{
+        margin-left: 7vw;
+            }
+        .header-img{
+        width:35.42vw ;
+        height:31.61vw ;
+        margin-left: 55vw;
+        margin-top: 2.10;
+        }
+        .btn-menu{
+        background-color: #FFA081;
+        padding-top: 0.7vw;
+        padding-bottom: 0.7vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        border-radius: 0.94vw;
+        a{
+            text-decoration: none;
+        }
+        }
+        .header{
+        margin-bottom: 5vw;
+        }
+        .kras{
+          margin-top: -20vw;
+          margin-left: -20vw;
+          
+        }
+        .belu{
+          margin-top: 8vw;
+          margin-left: -15vw;
+        }
+        .kosmo{
+          margin-top: -95vw;
+          margin-left: 40vw;
+        }
+        .onee{
+          margin-top: -40vw;
+          margin-left: 34vw;
+        }
+        .twoo{
+          margin-top: -75vw;
+          margin-left: 65vw;
+          
+        }
+        .dvig{
+          margin-left: 16.65vw;
+          
+        }
+        .zag{
+          font-family: "Parkinsans", sans-serif;
+          font-size: 5.20vw;
+          font-weight: 100;
+          margin-top: -43vw;
+          margin-left: -9vw;
+        }
+        .sec{
+          margin-bottom: -3vw;
+        }
+        .fir{
+          margin-bottom: -3vw;
+        }
+        .krash{
+          color: #CE3B3B;
+        }
+        .sere{
+          font-size: 2.28vw;
+          color: #676767;
+          font-weight: 200;
+          margin-top: -2vw;
+          margin-left: 15vw;
+          font-family: "Montserrat", serif;
+        }
+        .krug{
+          border: none;
+          margin-left: 30vw;
+          
+        }
+        .lll{
+          width: 13.69vw;
+          height: 11.77vw;
+        }
+        .temnota{
+          margin-top: 10vw;
+        }
+        .koko{
+          margin-top: -73vw;
+          margin-left: 18vw;
+          color: white;
+        }
+        .spoti{
+          font-family: "Parkinsans", sans-serif;
+          font-size: 5.20vw;
+          font-weight: 100;
+        }
+        .sp{
+          margin-left: 65vw;
+          margin-top: -20vw;
+          width: 6.08vw;
+          
+        }
+        
+        .fuse{
+          width: 22.02vw;
+          height: 27.98vw;
+          margin-left: 18vw;
+          margin-top: -7vw;
+        }
+        .fus{
+          width: 22.02vw;
+          height: 27.98vw;
+          margin-top: -7vw;
+        }
+        .fuss{
+          width: 22.02vw;
+          height: 19.40vw;
+          margin-top: -15.5vw;
+          
+        }
+        .fusse{
+          width: 14.70vw;
+          height: 22.52vw;
+          margin-left: 85vw;
+          margin-top: -35.2vw;
+        }
+        .hz{
+          width: 35.57vw;
+          height: 24.90vw;
+          margin-left: 18vw;
+          margin-top: 4vw;
+        }
+        .cloud{
+          margin-top: -26vw;
+          margin-left: 55vw;
+          color: white;
+        }
+        .pod{
+          margin-left: 55vw;
+          margin-top: -3vw;
+        }
+        .lor{
+          font-size: 0.94vw;
+          font-family: "Montserrat", serif;
+          color: #676767;
+          margin-left: 55vw;
+          margin-right: 19vw;
+          margin-top: -2vw;
+        }
+        .about{
+          margin-top: 15vw;
+        }
+        .post{
+          margin-top: 15vw;
+          margin-left: 13vw;
+        }
+        .peiz{
+          width: 14.42vw;
+        }
+        .peiz2{
+          width: 14.42vw;
+        }
+        .peiz3{
+          width: 14.42vw;
+        }
+        .peiz4{
+          width: 14.42vw;
+        }
+        .karka{
+          margin-left: 12vw;
+          margin-top: 2vw;
+        }
+        .krug2{
+          border: none;
+        }
+        .atri{
+          width: 78.07vw;
+          height: 38.02vw;
+          margin-top: 4vw;
+          margin-left: 10vw;
+        }
+        .aboutus{
+          margin-top: 12vw;
+        }
+        .writee{
+          margin-top: -105vw;
+          margin-left: 12vw;
+          color: white;
+        }
+        .saww{
+          width: 13.08vw;
+          margin-left: 68vw;
+          margin-top: -20vw;
+        }
+        .piano{
+          width: 19.32vw;
+          height: 22vw;
+          margin-left: 13vw;
+          margin-top: -6vw;
+        }
+        .elec{
+          font-family: "Montserrat", serif;
+          font-size: 1.52vw;
+          font-weight: 100;
+          color: rgba(255, 255, 255, 0.669);
+          margin-left: 16vw;
+          margin-right: 60vw;
+          margin-top: -2.5vw;
+        }
+        .lorr{
+          font-family: "Montserrat", serif;
+          font-size: 0.74vw;
+          font-weight: 300;
+          margin-left: 13vw;
+          margin-right: 65vw;
+          color: rgba(255, 255, 255, 0.669);
+        }
+        .eed{
+          font-family: "Montserrat", serif;
+          font-size: 0.74vw;
+          color: #CE3B3B;
+          font-weight: 300vw;
+          margin-left: 13vw;
+        }
+        .mikro{
+          width: 24.74vw;
+          height: 25.63vw;
+          margin-left: 55vw;
+          margin-top: -40vw;
+        }
+        .elec2{
+          font-family: "Montserrat", serif;
+          font-size: 1.52vw;
+          font-weight: 100;
+          color: rgba(255, 255, 255, 0.669);
+          margin-left: 59vw;
+          margin-top: -10.5vw;
+          margin-right: 14vw;
+        }
+        .lorr2{
+          font-family: "Montserrat", serif;
+          font-size: 0.74vw;
+          font-weight: 300;
+          margin-left: 55vw;
+          margin-right: 23vw;
+          color: rgba(255, 255, 255, 0.669);
+        }
+        .eed2{
+          font-family: "Montserrat", serif;
+          font-size: 0.74vw;
+          color: #CE3B3B;
+          font-weight: 300vw;
+          margin-left: 55vw;
+        }
+        .colon{
+          width: 27.08vw;
+          height: 28.07vw;
+          margin-left: 19vw;
+          margin-top: -4vw;
+        }
+        .elec3{
+          font-family: "Montserrat", serif;
+          font-size: 1.52vw;
+          font-weight: 100;
+          color: rgba(255, 255, 255, 0.669);
+          margin-left: 22vw;
+          margin-top: -2.5vw;
+          margin-right: 50vw;
+        }
+        .lorr3{
+          font-family: "Montserrat", serif;
+          font-size: 0.94vw;
+          font-weight: 300;
+          margin-left: 19vw;
+          margin-right: 50vw;
+          color: rgba(255, 255, 255, 0.669);
+        }
+        .eed3{
+          font-family: "Montserrat", serif;
+          font-size: 0.94vw;
+          color: #CE3B3B;
+          font-weight: 300vw;
+          margin-left: 19vw;
+        }
+        .hitro{
+          width: 49.48vw;
+          height: 39.32vw;
+        }
+        .gg{
+          margin-top: -2vw;
+          margin-left: 18vw;
+          position: absolute;
+        }
+        .prob{
+          width: 100vw;
+          height: 110.36vw;
+        }
+        .lll2{
+          width: 13.69vw;
+          height: 11.77vw;
+          margin-top: -27vw;
+        }
+        .me{
+          margin-top: 12vw;
+        }
+        .saul{
+          margin-top: 60vw;
+          margin-left: 10vw;
+        }
+        .muck{
+          font-size: 2.34vw;
+          margin-left: 10vw;
+          font-family: "Montserrat", serif;
+          font-weight: 200;
+          margin-right: 50vw;
+        }
+        .jjj{
+          font-size: 0.94vw;
+          margin-left: 10vw;
+          font-family: "Montserrat", serif;
+          font-weight: 300;
+          margin-right: 49vw;
+        }
+        .shasty{
+          width: 25.68vw;
+          height: 25.47vw;
+          margin-left: 64vw;
+          margin-top: -50vw;
+        }
+        .krug3{
+          border: none;
+        }
+        .lll3{
+          width: 13.69vw;
+          height: 11.77vw;
+          margin-left: 67vw;
+          margin-top: -19vw;
+        }
+        .trit{
+          width: 7.29vw;
+          height: 6.04vw;
+        }
+        .trit2{
+          width: 7.29vw;
+          height: 6.04vw;
+        }
+        .trit3{
+          width: 7.29vw;
+          height: 6.04vw;
+        }
+        .kopki{
+          margin-left: 63vw;
+          margin-top: -11vw;
+        }
+        
+        .goma{
+          
+          margin-top: -7vw;
+        }
+        .row{
+          width: 100vw;
+        }
+        .perv{
+          color: white;
+          margin-left: 37vw;
+        }
+        .vtorr{
+          color: white;
+        }
+        .kvad{
+          margin-top: 0;
+        }
+        .sin{
+          margin-top: 3vw;
+        }
+        .kvad{
+          margin-top: 5vw;
+        }
+        .plemz{
+          margin-left: 75vw;
+          margin-top: -90vw;
+        }
+        .ris{
+          margin-top: -30vw;
+          margin-left: 89vw;
+        }
+        .roz{
+          margin-top: -18vw;
+          margin-left:70vw;
+        }
+        .gogol{
+          margin-top: -15vw;
+        }
+        .subbet{
+          font-size: 8.31vw;
+          color: #CE3B3B;
+          margin-left: 20vw;
+          margin-top: -4vw;
+        }
+        .bubut{
+          margin-left: 60vw;
+          margin-top: -5vw;
+        }
+        .jomer{
+          font-size: 0.94vw;
+          margin-left: 65vw;
+          font-family: "Montserrat", serif;
+          font-weight: 300;
+          margin-top: -13vw;
+          margin-right: 15vw;
+        }
+        .krug4{
+          border: none;
+        }
+        .lll4{
+          width: 13.69vw;
+          height: 11.77vw;
+          margin-left: 43vw;
+          margin-top: -42vw;
+        }
+       
+       
+    </style>
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div class="container-lg">
+      <header class="header" id="Menu">
+        <nav class="navbar navbar-expand-lg menu">
+            <div class="container-fluid menu-contain ">
+              <a class="navbar-brand me-5" href="index.html"><img src="imgg/Logo.png" class="logotyp" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item me-5">
+                    <a class="nav-link active secondary" aria-current="page" href="contact.html"><img src="imgs/ic_baseline-telegram.png" alt=""></a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link secondary active" href="contact.html"><img src="imgs/ph_instagram-logo-fill.svg" alt=""></a>
+                  </li>
+                  <li class="nav-item me-5"></li>
+                    <a class="nav-link secondary" href="contact.html"><img src="imgs/mdi_twitter.svg" alt=""></a>
+                  </li>
+                  <li class="nav-item me-5"></li>
+                    <a class="nav-link secondary" href="contact.html"><img src="imgs/ic_baseline-facebook.svg" alt=""></a>
+                  </li>
+                  
+                  
+                </ul>
+                <form action="">
+                    <form class="d-flex" action=""><a class="nav-link secondary login me-5" href="glavnai.html">+MENU</a></form>
+                  
+                </form>
+              </div>
+            </div>
+          </nav>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item me-5">
+                        <a class="nav-link active secondary" aria-current="page" href="glavnai.html">HOME</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link secondary active" href="rele.html">RELEASES</a>
+                      </li>
+                      <li class="nav-item me-5"></li>
+                        <a class="nav-link secondary" href="contact.html">CONTACT</a>
+                      </li>
+                      <li class="nav-item me-5"></li>
+                        <a class="nav-link secondary" href="about.html">ABOUT US</a>
+                      </li>
+                      <li class="nav-item me-5"></li>
+                        <a class="nav-link secondary" href="send.html">SEND DEMO</a>
+                      </li>
+                      <li class="nav-item me-5"></li>
+                        <a class="nav-link secondary" href="booking.html">BOOKING</a>
+                      </li>
+                      
+                      
+                    </ul>
+                    <form action="">
+                        <form class="d-flex" action=""><a class="nav-link secondary login me-5" href="log.html"></a></form>
+                     
+                    </form>
+              </div>
+            </div>
+            
+            
+    </header>
+    
+    
+  </div>
+  
+  
+  <section class="dvig">
+      
+            <div><img src="imgs/Group 123.png" alt="" width="30%" class="kras"></div>
+            
+            <div><img src="imgs/Group 124.png" alt="" width="30%" class="belu"></div>
+            <div><img src="imgs/kosmo.png" alt="" width="10%" class="kosmo"></div>
+            <div><img src="imgs/treshka.png" alt="" width="43%" class="onee"></div>
+            <div><img src="imgs/treshka2.png" alt="" width="22%" class="twoo"></div>
+            <div class="zag">
+              <p class="fir">OUR MINDS NEED</p>
+              <p class="sec">MUSIC AS MUCH AS</p>
+              <p class="third">OUR <span class="krash">SOULS NEED</span> LOVE</p>
+              <p class="sere">If you feel the same way, we <br> are of the Same Mind.</p>
+              <a href="rele.html"><button type="button" class="btn krug "><img src="imgs/Group 20.svg" alt=""  class="lll"></button></a>
+            </div>
+  </section>
+  <section class="temnota">
+    <img src="imgs/temno.jpg" alt="" width="100%">
+    <div class="spoti">
+      <p class="koko">SPOTIFY <span class="krash">PLAYLISTS</span> </p>
+      <img src="imgs/bi_spotify.svg" alt="" class="sp" >
+    </div>
+    <div class="karus">
+      <img src="imgs/Group 36.png" alt="" class="fuse">
+      <img src="imgs/Group 37.png" alt="" class="fus">
+      <img src="imgs/Group 38.png" alt="" class="fuss">
+      <img src="imgs/Group 39.png" alt="" class="fusse">
+    </div>
+    <img src="imgs/Group 44.png" alt="" class="hz">
+    <div class="spoti">
+      <p class="cloud">SOUNDCLOUD</p>
+      <p class="pod"><span class="krash">PODCASTS</span></p>
+      <p class="lor">Lorem ipsum dolor sit amet consectetur. Ac pulvinar pharetra tempor fermentum facilisi ut auctor lobortis. Sed diam dignissim venenatis ac id volutpat sit. Sit lorem amet est massa at in ligula in. Maecenas felis vulputate et ac nunc sed euismod. Scelerisque blandit fermentum aliquet ullamcorper.
+        Orci nibh etiam volutpat pellentesque ultricies ac eu pretium. </p>
+    </div>
+  </section>
+  <section class="last">
+    <div class="spoti">
+      <p class="post">LAST INSTAGRAM <span class="krash">POST</span></p>
+    </div>
+    <div class="karka">
+      <img src="imgs/1638933524_23-krot-info-p-peizazh-kvadrat-krasivie-foto-23 1.png" alt="" class="peiz">
+      <img src="imgs/1638933524_23-krot-info-p-peizazh-kvadrat-krasivie-foto-23 1.png" alt="" class="peiz2">
+      <img src="imgs/1638933524_23-krot-info-p-peizazh-kvadrat-krasivie-foto-23 1.png" alt="" class="peiz3">
+      <img src="imgs/1638933524_23-krot-info-p-peizazh-kvadrat-krasivie-foto-23 1.png" alt="" class="peiz4">
+      <a href="booking.html"><button type="button" class="btn krug2 "><img src="imgs/inst.svg" alt="" class="lll2"></button></a>
+    </div>
+    <img src="imgs/art.png" alt="" class="atri">
+  </section>
+  <section class="aboutus">
+    <img src="imgs/temno2.jpg" alt="" class="prob">
+    <div class="spoti">
+      <p class="writee">THE WRITE <span class="krash">ABOUT US</span> </p>
+      <a href="about.html"><button type="button" class="btn krug3 "><img src="imgs/belk.svg" alt="" class="lll3"></button></a>
+    </div>
+    <div class="kyrin">
+      <img src="imgs/image 43.png" alt="" class="piano">
+      <p class="elec">Electronic music producer, performer, and Same Mind records owner.</p>
+      <p class="lorr">Lorem ipsum dolor sit amet consectetur. Ac pulvinar pharetra tempor fermentum facilisi ut auctor lobortis. Sed diam dignissim venenatis ac id volutpat sit. Sit lorem amet est massa at in ligula in. </p>
+      <p class="eed"><u>READ MORE</u></p>
+      <img src="imgs/image 44.png" alt="" class="mikro">
+      <p class="elec2">Electronic music producer, performer, and Same Mind records owner.</p>
+      <p class="lorr2">Lorem ipsum dolor sit amet consectetur. Ac pulvinar pharetra tempor fermentum facilisi ut auctor lobortis. Sed diam dignissim venenatis ac id volutpat sit. Sit lorem amet est massa at in ligula in. </p>
+      <p class="eed2"><u>READ MORE</u></p>
+      
+    </div>
+    <div class="gg">
+      <img src="imgs/Group 129.svg" alt="" class="hitro">
+    </div>
+  </section>
+  <section class="me">
+    <div class="spoti">
+      <p class="saul">ABOUT <span class="krash">ME</span></p>
+      <p class="muck">Electronic music producer, performer, and Same Mind records owner.</p>
+      <p class="jjj">Lorem ipsum dolor sit amet consectetur. Ac pulvinar pharetra tempor fermentum facilisi ut auctor lobortis. Sed diam dignissim venenatis ac id volutpat sit. Sit lorem amet est massa at in ligula in. Maecenas felis vulputate et ac nunc sed euismod. Scelerisque blandit fermentum aliquet ullamcorper.
+        Orci nibh etiam volutpat pellentesque ultricies ac eu pretium. <br> <br>
+        
+        Egestas et fermentum massa enim. Nulla enim faucibus quam aliquam interdum euismod. Interdum laoreet risus donec tempor habitasse blandit leo. Sagittis diam viverra auctor nisi praesent. Dictum consectetur maecenas dignissim pellentesque ornare turpis feugiat tellus nulla. Justo ac egestas at nisl diam semper at venenatis et. Suspendisse odio leo pulvinar nunc mollis. Ut gravida non sed porttitor quis sit fermentum placerat sem. Urna non pharetra enim lacus pellentesque tristique in faucibus. Fermentum nec tellus augue lorem. Accumsan quisque sed erat nunc.
+        </p>
+    </div>
+    <img src="imgs/шастун.png" alt="" class="shasty">
+    <div class="kopki">
+      <a href="rele.html"><button type="button" class="btn krug3 "><img src="imgs/Group 20 (1).svg" alt="" class="trit"></button></a>
+      <a href="booking.html"><button type="button" class="btn krug3 "><img src="imgs/Group 21.svg" alt="" class="trit2"></button></a>
+      <a href="send.html"><button type="button" class="btn krug3 "><img src="imgs/Group 22.svg" alt="" class="trit3"></button></a>
+    </div>
+    
+  </section>
+  <section class="newle">
+    <div><img src="imgs/Group 34.png" alt="" width="25%" class="sin"></div>
+    <div class="spoti">
+      <p class="subbet">SUBSCRIBE</p>
+      <p class="bubut">OUR NEWS</p>
+      <p class="jomer">Lorem ipsum dolor sit amet consectetur. Ac pulvinar pharetra tempor fermentum facilisi ut auctor lobortis. Sed diam </p>
+    </div>
+        <div><img src="imgs/Group 32.png" alt="" width="15%" class="kvad"></div>
+        <div><img src="imgs/Group 47.png" alt="" width="20%" class="plemz"></div>
+        <div><img src="imgs/Group 49.png" alt="" width="11%" class="ris"></div>
+        <div><img src="imgs/image 22.png" alt="" width="16%" class="roz"></div>
+        <a href="send.html"><button type="button" class="btn krug4 "><img src="imgs/Group 50.svg" alt="" class="lll4"></button></a>
+        
+  </section>
+  <footer class="goma">
+    <div class="container">
+      <footer class="py-3 my-4">
+        
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="glavnai.html" class="nav-link px-2 text-body-secondary">HOME</a></li>
+            <li class="nav-item"><a href="rele.html" class="nav-link px-2 text-body-secondary">RELEASES</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-body-secondary">CONTACT</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link px-2 text-body-secondary">ABOUT US</a></li>
+            <li class="nav-item"><a href="send.html" class="nav-link px-2 text-body-secondary">SEND DEMO</a></li>
+            <li class="nav-item"><a href="booking.html" class="nav-link px-2 text-body-secondary">BOOKING</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+      </footer>
+    </div>
+    
+  </footer>
+</body>
+</html>
